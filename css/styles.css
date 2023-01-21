@@ -199,7 +199,8 @@ ul {margin: 0;padding-left: 0;}
 
 
 .dark-theme.container{
-    
+    width: 264px;
+    margin-right: auto;
     
 }  
 
@@ -209,6 +210,11 @@ ul {margin: 0;padding-left: 0;}
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+
+    gap: 120px;;
+
+    display: flex;
+    align-item: baseline;
 }
 
 .info-footer{
@@ -307,10 +313,10 @@ fill: #FFFFFF;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    width: 264px;
+    width: 100%; 
     margin-bottom: 8px;
-    }
 
+    }
 
 .title-functions{
     font-size: 36px;
@@ -340,19 +346,19 @@ fill: #FFFFFF;
 }
 
 .tools-flex.icon-antenna::before{
-    background-image: url('../images/icons.svg/tools-icons/antenna.svg');
+    background-image: url('../images/icons/tools-icons/antenna.svg');
 }
 
 .tools-flex.icon-clock::before{
-    background-image: url('../images/icons.svg/tools-icons/clock.svg');
+    background-image: url('../images/icons/tools-icons/clock.svg');
 }
 
 .tools-flex.icon-diagram::before{
-    background-image: url('../images/icons.svg/tools-icons/diagram.svg');
+    background-image: url('../images/icons/tools-icons/diagram.svg');
 }
 
 .tools-flex.icon-astronaut::before{
-    background-image: url('../images/icons.svg/tools-icons/astronaut.svg');
+    background-image: url('../images/icons/tools-icons/astronaut.svg');
 }
 
 .team{
@@ -430,7 +436,9 @@ height: 40px;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
 }
-
+.tools-flex.icon-diagram>.section-description{
+    min-width: 266px;
+}
 /* ================/HERO=========== */
 
 
@@ -461,7 +469,6 @@ height: 40px;
 }
 
 .main-font-image{
-    /*font-family: var(--primary-font);*/
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -591,7 +598,7 @@ border: 1px solid #8E8F99;
 .social-media{
     min-width: 96px;
     outline: 1px solid red;
-
+}
 
     /* ================/PORTFOLIO=========== */
 
