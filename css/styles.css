@@ -141,7 +141,7 @@ ul {margin: 0;padding-left: 0;}
 
 .contact-email:hover,.contact-email:focus,
 .contact-phone-number:hover, .contact-phone-number:focus{
-    color: var(--accent-color); 
+    color: #404BBF;; 
 }
 
 .contact-phone-number{
