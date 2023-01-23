@@ -655,17 +655,19 @@ gap:24px;
     height: 88px;
     border-radius: 4px;
     border: 1px solid #8E8F99;
-    
-}
+    }
 
 .icon-customer{
     fill: #8E8F99;
 }
-.customers-item:is(:hover, :focus){
+
+.customers-soc-link:hover, 
+.customers-soc-link:focus{
     border: 1px solid #4D5AE5;
 }
 
-.customers-item:is(:hover, :focus) .icon-customer{
+.customers-soc-link:hover .icon-customer,
+.customers-soc-link:focus .icon-customer {
     fill: #4D5AE5;
     
 }
