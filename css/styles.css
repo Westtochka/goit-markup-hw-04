@@ -173,7 +173,7 @@ ul {margin: 0;padding-left: 0;}
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;     
     cursor: pointer;
-
+border-color: var(--link-background-color);
 }
 
 .modal-btn:hover, 
