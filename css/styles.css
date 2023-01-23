@@ -170,7 +170,7 @@ ul {margin: 0;padding-left: 0;}
     letter-spacing: 0.04em;
     color: var(--white-font);
     background: var(--link-background-color);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;     
     cursor: pointer;
 
@@ -342,7 +342,7 @@ fill: #FFFFFF;
 
 
 .main-flex-tools .tools-flex:nth-child(3){
-    min-width: 264px;
+    width: 267px;
 }
 
 /* .box-tools{
@@ -546,12 +546,15 @@ height: 40px;
     border-width: 1px;
     border-style: solid;
     border-color: #E7E9FC;
+
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .mix-box-portfolio:hover, 
 .mix-box-portfolio:focus{
-    box-shadow: 0px 1px 6px 
-    rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .mix-box-portfolio:nth-child(3n){
     margin-right: 0;
@@ -655,21 +658,22 @@ gap:24px;
     
 }
 
-.customers-item:hover, 
-.customers-item:focus{
-    border: 1px solid #4D5AE5;
-
-}
-
 .icon-customer{
     fill: #8E8F99;
-    
+}
+.customers-item:is(:hover, :focus){
+    border: 1px solid #4D5AE5;
 }
 
-.icon-customer:hover, .icon-customer:focus{
+.customers-item:is(:hover, :focus) .icon-customer{
     fill: #4D5AE5;
     
 }
+
+/* .icon-customer:hover, .icon-customer:focus{
+    fill: #4D5AE5;
+    
+} */
 .customers-soc-link{
 width: 100%;
 height: 100%;
